@@ -1,0 +1,13 @@
+{
+    "name": "tunet/hexlet-php",
+    "description": "Hexlet PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aliaksandr Kulba",
+            "email": "tunet000@gmail.com"
+        }
+    ],
+    "require": {}
+}

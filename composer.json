@@ -9,5 +9,13 @@
             "email": "tunet000@gmail.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "files": [
+            "src/StringUtils.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4",
+        "ext-mbstring": "*"
+    }
 }

@@ -1,13 +1,10 @@
 <?php
 
+use Webmozart\Assert\Assert;
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
-if (StringUtils\capitalize('hello') !== 'Hello') {
-    throw new \Exception('Функция работает неверно!');
-}
-
-if (StringUtils\capitalize('') !== '') {
-    throw new \Exception('Функция работает неверно!');
-}
+Assert::eq(StringUtils\capitalize('hello'), 'Hello');
+Assert::eq(StringUtils\capitalize(''), '');
 
 echo 'Все тесты пройдены!';

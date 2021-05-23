@@ -16,6 +16,7 @@
     },
     "require": {
         "php": "^7.4",
-        "ext-mbstring": "*"
+        "ext-mbstring": "*",
+        "webmozart/assert": "^1.10"
     }
 }
